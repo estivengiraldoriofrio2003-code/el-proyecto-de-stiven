@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" fill="none" role="img" aria-label="Ilustración del edificio institucional">
+  <!-- Ilustración lineal del edificio de seis pisos (no es una fotografía institucional) -->
+  <g stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M120 62 232 34l92 26v212H120V62Z" />
+    <path d="M232 34v238" stroke-opacity=".35" />
+    <path d="M120 62l112-28 92 26" />
+    <path d="M120 96h204M120 130h204M120 164h204M120 198h204M120 232h204" stroke-opacity=".32" />
+    <!-- ventanas piso 1 -->
+    <g stroke-opacity=".5">
+      <rect x="138" y="104" width="22" height="16" rx="1.5" />
+      <rect x="174" y="104" width="22" height="16" rx="1.5" />
+      <rect x="210" y="104" width="22" height="16" rx="1.5" />
+      <rect x="262" y="104" width="22" height="16" rx="1.5" />
+      <rect x="298" y="104" width="22" height="16" rx="1.5" />
+      <rect x="138" y="138" width="22" height="16" rx="1.5" />
+      <rect x="174" y="138" width="22" height="16" rx="1.5" />
+      <rect x="210" y="138" width="22" height="16" rx="1.5" />
+      <rect x="262" y="138" width="22" height="16" rx="1.5" />
+      <rect x="298" y="138" width="22" height="16" rx="1.5" />
+      <rect x="138" y="172" width="22" height="16" rx="1.5" />
+      <rect x="174" y="172" width="22" height="16" rx="1.5" />
+      <rect x="210" y="172" width="22" height="16" rx="1.5" />
+      <rect x="262" y="172" width="22" height="16" rx="1.5" />
+      <rect x="298" y="172" width="22" height="16" rx="1.5" />
+      <rect x="138" y="206" width="22" height="16" rx="1.5" />
+      <rect x="174" y="206" width="22" height="16" rx="1.5" />
+      <rect x="210" y="206" width="22" height="16" rx="1.5" />
+      <rect x="262" y="206" width="22" height="16" rx="1.5" />
+      <rect x="298" y="206" width="22" height="16" rx="1.5" />
+    </g>
+    <!-- acceso -->
+    <path d="M212 274v-28h40v28" stroke-opacity=".7" />
+    <path d="M120 274h204" stroke-opacity=".55" />
+  </g>
+</svg>
