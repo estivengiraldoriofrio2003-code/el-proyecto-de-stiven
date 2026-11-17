@@ -1,0 +1,28 @@
+{
+  "name": "sistema-reservas-iuc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Plataforma web institucional para la gestión de espacios, equipos y elementos de acceso del Instituto Universitario de Caldas",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:only": "vite build",
+    "preview": "vite preview --port 4173",
+    "serve:dist": "vite preview --host 0.0.0.0 --port 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "lucide-react": "^0.469.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0"
+  }
+}

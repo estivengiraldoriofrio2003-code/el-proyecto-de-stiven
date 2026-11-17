@@ -1,0 +1,58 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Compilación
+dist/
+dist-ssr/
+*.local
+
+# Entorno (NUNCA versionar credenciales reales)
+.env
+.env.local
+.env.*.local
+.env.production
+.dev.vars
+
+# Cachés
+.vite/
+.cache/
+.turbo/
+
+# Registros
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# PM2
+.pm2/
+pids/
+*.pid
+*.seed
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Empaquetados y respaldos
+*.tar.gz
+*.zip
+*.bak
+*.backup
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# Vercel
+.vercel
+
+# Pruebas locales de PostgreSQL
+tests/*.out
+tests/*.log
